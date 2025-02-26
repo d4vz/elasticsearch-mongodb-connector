@@ -1,0 +1,6 @@
+services:
+  connector:
+    image: elastic/elastic-connectors:9.0.0-beta1
+    volumes:
+      - ./connectors-config:/config
+    command: ["/app/bin/elastic-ingest", "-c", "/config/config.yml"]

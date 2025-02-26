@@ -1,0 +1,11 @@
+
+
+
+connectors:
+-
+  connector_id: connector_id
+  service_type: mongodb
+  api_key: api_key
+elasticsearch:
+  host: host
+  api_key: api_key
